@@ -4,7 +4,7 @@ class Worker:
     age: int
     full_name: str
     salary: int
-    def __init__(self, id: int, dep_id: int, age: int, full_name: str, salary: int) -> None:
+    def __init__(self, id: int, full_name: str, age: int,  salary: int, dep_id: int) -> None:
         self.id = id
         self.dep_id = dep_id
         self.age = age
